@@ -44,6 +44,9 @@ import { CardContainer, CardBody, CardItem } from '@/components/card/card-3d';
             href="https://gujinwei.org">Jinwei Gu</a>, Prof. <a class="link" href="https://tianfan.info">Tianfan
             Xue</a> and Dr. <a class="link" href="https://sifeiliu.net">Sifei Liu</a>. My research interests include Multimodal, efficient vision foundation models, computational photography/imaging and low-level vision.
         </p>
+        <p class="px-4 pb-4 leading-relaxed text-left">
+          <b>I am open to opportunities.</b> Feel free to reach out!
+        </p>
         <p class="text-xl font-bold p-4">Research</p>
         <div class="flex flex-col gap-3 max-w-full">
           <CardContainer class="w-full max-w-full" v-for="researchItem in researchItems" :key="researchItem.title"

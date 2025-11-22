@@ -72,7 +72,7 @@ import GButton from './components/util/GButton.vue'
   <div class=" w-full footer text-center p-4 text-gray-400 z-100">
     <p><small>Anonymized data may be collected. <a style="color: black;" href="javascript:void(0);"
           @click="showModal('Anonymized Statistics', '\n This page records anonymized browsing history, including links clicked, duration of stay, and browser language settings. This data will be used for statistical analysis only.')">More
-          Details</a> <br> Designed by Yitong.</small></p>
+          Details</a> <br> Special thanks to <a href="https://lg-li.github.io/" target="_blank" class="link">lg-li.github.io</a> for the page design</small></p>
   </div>
 
   <g-modal v-bind:show.sync="modal.isOpen" @closeModal="closeModal">
