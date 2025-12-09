@@ -171,7 +171,7 @@ export default {
         {
           title: 'Token-Efficient VLM: High-Resolution Image Understanding via Dynamic Region Proposal',
           authors: '<strong>Yitong Jiang</strong>, Jinwei Gu, Tianfan Xue, Ka Chun Cheung, Pavlo Molchanov, Hongxu Yin, Sifei Liu',
-          venue: 'ICCV 2025',
+          venue: 'ICCV 2025 <span style="color: gold;">(Highlight)</span>',
           date: '2025/10/01',
           background: './pub-images/TEVA.png',
           note: 'Project done at NVIDIA Research',
@@ -214,7 +214,7 @@ export default {
               action: 'route',
               buttonName: 'Project Page',
               buttonIcon: 'fa-globe',
-              link: ''
+              link: 'https://whj363636.github.io/GSPN2/#'
             },
             {
               action: 'link',
