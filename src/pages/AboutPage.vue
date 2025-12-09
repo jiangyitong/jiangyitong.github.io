@@ -63,7 +63,7 @@ import { CardContainer, CardBody, CardItem } from '@/components/card/card-3d';
                     <span class="w-full">{{ researchItem.title }}</span>
                   </CardItem>
                   <CardItem as="p" :translate-z="40" class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">
-                    <b class="text-neutral-500 dark:text-neutral-400">{{ researchItem.venue }}<br /></b>
+                    <b class="text-neutral-500 dark:text-neutral-400"><span v-html="researchItem.venue"></span><br /></b>
                     <span v-html="researchItem.authors"></span>
                     <span v-if="researchItem.note" class="block text-xs italic text-neutral-500 dark:text-neutral-400 mt-1">
                       {{ researchItem.note }}
