@@ -40,7 +40,7 @@ import { CardContainer, CardBody, CardItem } from '@/components/card/card-3d';
       <!--Right Column-->
       <div class="lg:basis-6/10 basis-full lg:max-w-6/10 max-w-full">
         <p class="p-4 leading-relaxed text-left">
-          I am a Ph.D. student at The Chinese University of Hong Kong, advised by Prof. <a class="link"
+          I am a Ph.D. student at Multimedia Laboratory(MMLab), The Chinese University of Hong Kong, advised by Prof. <a class="link"
             href="https://gujinwei.org">Jinwei Gu</a>, Prof. <a class="link" href="https://tianfan.info">Tianfan
             Xue</a> and Dr. <a class="link" href="https://sifeiliu.net">Sifei Liu</a>. My research interests include Multimodal, efficient vision foundation models, computational photography/imaging and low-level vision.
         </p>
@@ -141,9 +141,9 @@ export default {
     return {
       researchItems: [
         {
-          title: 'Compact GSPN: Scaling Spatial Propagation to Vision Foundation Models',
+          title: 'Scaling Spatial Propagation to Vision Foundation Models',
           authors: '<strong>Yitong Jiang</strong>, Collin McCarthy, Hongjun Wang, Hanrong Ye, Qi Dou, Tianfan Xue, Jinwei Gu, Jan Kautz, Hongxu Yin, Pavlo Molchanov, Sifei Liu',
-          venue: 'Under Review',
+          venue: 'CVPR 2026',
           date: '2025/11/01',
           background: './pub-images/CGSPN.png',
           note: 'Project done at NVIDIA Research',
